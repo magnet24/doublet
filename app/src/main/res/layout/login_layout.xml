@@ -97,6 +97,37 @@
             android:textColor="#009688"
             android:textSize="17sp"
             android:textStyle="bold" />
+        <LinearLayout
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:drawableLeft="@drawable/ic_facebook"
+                android:textStyle="bold"
+                android:layout_marginRight="2dp"
+                android:textColor="@color/colorWhite"
+                android:padding="3dp"
+                android:text="Login Facebook"
+                android:background="@color/colorFacebook"
+                android:id="@+id/btnLoginFacebook"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:drawableLeft="@drawable/ic_google"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/colorWhite"
+                android:padding="3dp"
+                android:text="Login Google"
+                android:background="@color/colorGoogle"
+                android:id="@+id/btnLoginGoogle"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
     </LinearLayout>
 
     <TextView

@@ -20,5 +20,8 @@
     <string name="registered_emailid">Please enter your Registered Email Id below:</string>
     <string name="submit">SUBMIT</string>
     <string name="back">BACK</string>
+    <string name="facebook_app_id">285877568643003</string>
+    <string name="fb_login_protocol_scheme">fb285877568643003</string>
+
 
 </resources>
